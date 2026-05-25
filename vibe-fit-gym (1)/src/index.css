@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Hanken+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Hanken Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Sora", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --color-lime-accent: #c3f400;
+  --color-slate-dark: #121317;
+}
+
+@utility glass-card {
+  background: rgba(26, 26, 26, 0.6);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.05);
+}
+
+@utility neon-glow {
+  box-shadow: 0 0 20px rgba(195, 244, 0, 0.25);
+}
+
+@utility text-glow {
+  text-shadow: 0 0 8px rgba(195, 244, 0, 0.5);
+}
+
+@utility no-scrollbar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+body {
+  background-color: #0d0e12;
+  color: #e3e2e7;
+  font-family: var(--font-sans);
+}

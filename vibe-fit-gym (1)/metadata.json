@@ -1,0 +1,6 @@
+{
+  "name": "Vibe Fit Gym",
+  "description": "A premium, clear and user-friendly fitness app for Vibe Fit Gym featuring easy class booking, weekly schedule planning, personal statistics, and customizable profile settings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
